@@ -1,0 +1,29 @@
+{
+  "name": "jfa-conf-bot",
+  "version": "1.0.0",
+  "description": "bot for our telegram group",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node-telegram-bot-api": "^0.30.1",
+    "node-telegram-bot-api": "^0.30.0",
+    "nodemon": "^1.18.3",
+    "ts-node": "^7.0.0",
+    "ts-node-dev": "^1.0.0-pre.26",
+    "typescript": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BigleftCoders/jfa-conf-bot.git"
+  },
+  "author": "entire team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BigleftCoders/jfa-conf-bot/issues"
+  },
+  "homepage": "https://github.com/BigleftCoders/jfa-conf-bot#readme"
+}
